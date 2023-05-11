@@ -1,0 +1,52 @@
+.class1{
+    margin: auto ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    flex-direction: column;
+
+}
+
+.class2{
+    margin: auto ;
+
+}
+.loaderclass{
+    margin-top: 40vh ;
+}
+
+.mynav{
+    background-color: black;
+    color: white;
+}
+
+
+.myimg{
+    border-radius: 50%;
+    background-color: rgb(206, 206, 218);
+    height: 100% ;
+
+}
+
+.div1{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.nodata{
+    background-color: rgb(177 177 177);
+    margin-top: 10vh;
+    position: relative;
+    border: none;
+}
+
+
+.nodata1{
+    background-color: rgb(88,75,161);
+    margin-top: 10vh;
+    position: relative;
+    border: none;
+}
+
