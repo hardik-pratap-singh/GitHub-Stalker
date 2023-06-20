@@ -17,7 +17,7 @@ const Card = (props) => {
     useEffect(() => {
         // ref.current.click() ; 
         const getdata = async () => {
-            const response = await fetch(`${process.env.REACT_APP_BASE_URL}hardik-pratap-singh`, {
+            const response = await fetch(`https://githubstalks.onrender.com/hardik-pratap-singh`, {
                 method: "GET",
             })
 
@@ -53,7 +53,7 @@ const Card = (props) => {
             else {
                 url = data;
             }
-            const response = await fetch(`${process.env.REACT_APP_BASE_URL}${url}`, {
+            const response = await fetch(`https://githubstalks.onrender.com/${url}`, {
                 method: "GET",
             })
             const json = await response.json();
